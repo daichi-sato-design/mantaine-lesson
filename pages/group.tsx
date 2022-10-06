@@ -1,7 +1,7 @@
-import { ReplyIcon } from '@heroicons/react/solid'
-import { Button, Group, Center } from '@mantine/core'
-import Link from 'next/link'
 import { FC } from 'react'
+import Link from 'next/link'
+import { Button, Group, Center } from '@mantine/core'
+import { ReplyIcon } from '@heroicons/react/solid'
 import { Layout } from '../components/Layout'
 
 const GroupDemo: FC = () => {
