@@ -1,11 +1,11 @@
-import { FC } from 'react'
+import type { NextPage } from 'next'
 import Link from 'next/link'
 import { Layout } from '../components/Layout'
 import { Button, Group } from '@mantine/core'
 import { ReplyIcon } from '@heroicons/react/solid'
 import { BrandGithub, ThreeDCubeSphere } from 'tabler-icons-react'
 
-const ButtonDemo: FC = () => {
+const ButtonDemo: NextPage = () => {
   return (
     <Layout title="Button Demo Page">
       <Group direction="column" position="center">

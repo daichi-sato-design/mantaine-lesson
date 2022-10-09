@@ -1,10 +1,10 @@
-import { FC } from 'react'
+import type { NextPage } from 'next'
 import Link from 'next/link'
 import { Layout } from '../components/Layout'
 import { Grid, Center } from '@mantine/core'
 import { ReplyIcon } from '@heroicons/react/solid'
 
-const GridDemo: FC = () => {
+const GridDemo: NextPage = () => {
   return (
     <Layout title="Grid Demo">
       <Grid my="md">

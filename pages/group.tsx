@@ -1,10 +1,10 @@
-import { FC } from 'react'
+import type { NextPage } from 'next'
 import Link from 'next/link'
 import { Button, Group, Center } from '@mantine/core'
 import { ReplyIcon } from '@heroicons/react/solid'
 import { Layout } from '../components/Layout'
 
-const GroupDemo: FC = () => {
+const GroupDemo: NextPage = () => {
   return (
     <Layout title="Group Demo">
       <Group my="md" grow>
