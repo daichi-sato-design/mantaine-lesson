@@ -55,6 +55,13 @@ export const DashBoard: FC = () => {
           >
             Data Loader
           </Menu.Item>
+          <Menu.Item
+            icon={<Settings size={16} />}
+            component={NextLink}
+            href="/dialog"
+          >
+            Dialog
+          </Menu.Item>
         </Menu>
       </Center>
       <Center>
